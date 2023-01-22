@@ -16,7 +16,7 @@ SESSION_NAME = getenv("SESSION_NAME")
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
 else:
-    SESSION2 = str(getenv("STRING_SESSION2"))
+    SESSION2 = str(getenv('STRING_SESSION2', "BQBylaS31dBMNWABt_-plJ3Rb54AtTpq5JWCUZ0MvmPeogebg-hv0cSmGHbD0l46Oy2aIpUyeitDew93nWAHZ3jGgE_oH4rzVUSytywBVi19KpJS7tglb49FNmdmzj5xBymrUEvAQUrIMAN5-vIvvpbKj1srWofiuNeaBxGD_8XQlagtDruxj9YVHuL3YwFESkHPrCzEG0VxJys4pOy3YCq9uniYPLIVhAmNQPtQl2fR3lx6ZEU4vGiZdJZ6ZzXqKcyfdhuJaEpXBQmHaOF8LeDI7her8eEqqTduYZvQKK1Ccsb7q7LnLWTjWZBIJuHdwnTooiZjRTS9n5GYrOBgW5SFAAAAAWFsnJgA"))
 
 if str(getenv("STRING_SESSION3")).strip() == "":
     SESSION3 = str(None)
