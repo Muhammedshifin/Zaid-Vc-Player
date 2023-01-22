@@ -9,7 +9,7 @@ import asyncio
 from config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME, SESSION2
 from pyrogram import Client
 from pytgcalls import PyTgCalls
-from Zaid.main import *
+
 
 
 
